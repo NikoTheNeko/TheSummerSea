@@ -1,2 +1,2 @@
-/// @description Insert description here
+/// @description The recharge time of shooting bullets
 rechargeReady = 2;
