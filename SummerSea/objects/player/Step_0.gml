@@ -20,5 +20,5 @@ if(stanceCheck == 1){
 //Bullet Recharing
 if(rechargeReady == 0){
 	rechargeReady = 1;
-	alarm[0] = 30;
+	alarm[0] = 20;
 }
