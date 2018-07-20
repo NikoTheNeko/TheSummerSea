@@ -1,3 +1,6 @@
+//This handles all enemy health behavior
+//If an enemy shot it will detect what it's shot by then reduce the appropirate amount of health
+//If the enemy runs out of health then it will delete itself
 //Checks if a pea shot hits an enemy
 if(place_meeting(x,y,peaShot)){
 	enemyHealth -= 1;

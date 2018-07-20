@@ -1,3 +1,6 @@
+//Script is for handling checks for attack and stance switching
+//Stance changes the way the player shoots
+//Also sets the time and damage for each attack
 //Initializing variables
 bulletDmg = 1;
 bulletTime = 60;

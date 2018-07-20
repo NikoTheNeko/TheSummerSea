@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3f43cb9a-67ed-46f2-9259-bbc23a40ed2f",
+            "Value": {
+                "id": "12b7db34-cc74-4250-83c6-cc5ddc0f34f8",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f990ffe-c21f-42c0-8601-79e04801bcbc",
             "Value": {
                 "id": "1f846adb-284e-4072-a30a-72e56634bd3d",
@@ -116,6 +124,14 @@
                 "id": "55db1a28-972e-4dbe-9778-6689560d335e",
                 "resourcePath": "rooms\\testRoom\\testRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "454c3ee0-b1f8-4a5e-ba48-4dd892482d28",
+            "Value": {
+                "id": "f2771beb-3a0f-420e-9b24-d1e287f0d98a",
+                "resourcePath": "scripts\\playerHitDetection\\playerHitDetection.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "0021a4a0-e75f-407f-87cd-49b434306bd6",
                 "resourcePath": "scripts\\playerMovement\\playerMovement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "89e07575-7729-4709-a7d5-78eb480d7406",
+            "Value": {
+                "id": "de32f2b3-a272-420d-bd8a-838d5b545a9c",
+                "resourcePath": "views\\89e07575-7729-4709-a7d5-78eb480d7406.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -338,7 +362,7 @@
             "Key": "e890543f-db4e-4fbd-b89a-1ca2b68276a6",
             "Value": {
                 "id": "32a7093d-4ceb-4ab5-9d67-2abeffa3e1ef",
-                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "resourcePath": "sprites\\wallSprite\\wallSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -384,10 +408,11 @@
         }
     ],
     "script_order": [
-        "81509afc-2fce-4363-9909-acbbef1c8e49",
-        "b3fcdabb-0e7d-4262-a65b-8b3922baf603",
         "7bb6e357-e556-4882-a650-e9237ebe16ab",
-        "4940b0fc-a768-4540-90a1-a6930fa56951"
+        "4940b0fc-a768-4540-90a1-a6930fa56951",
+        "b3fcdabb-0e7d-4262-a65b-8b3922baf603",
+        "81509afc-2fce-4363-9909-acbbef1c8e49",
+        "454c3ee0-b1f8-4a5e-ba48-4dd892482d28"
     ],
     "tutorial": ""
 }

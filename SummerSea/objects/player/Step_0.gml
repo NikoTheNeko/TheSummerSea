@@ -23,10 +23,6 @@ if(rechargeReady == 0){
 	alarm[0] = 20;
 }
 
-//Hit collision
-if(place_meeting(x,y, enemyBullet) && (invuln == 0)){
-	invuln = 1;
-	playerHealth -= 1;
-	alarm[1] = 60;
-	sprite_index = playerInvuln;
-}
+//Enemy Hit Detection
+playerHitDetection(enemyBullet);
+playerHitDetection(enemyLongShot);
