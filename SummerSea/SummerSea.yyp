@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06fcad85-7aa9-4dfb-be8c-82cdc65d7a92",
+            "Value": {
+                "id": "d6caadd8-73e7-408f-8277-54fbc83bf990",
+                "resourcePath": "objects\\enemySpinShot\\enemySpinShot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b0d560a-59a8-49d9-a8ad-817bd4ea96ab",
             "Value": {
                 "id": "d96b0a0a-d8b1-4397-afe4-9e730faf1896",
@@ -71,6 +79,14 @@
             }
         },
         {
+            "Key": "1b362422-d657-465c-9ac3-3b8d2d0f2251",
+            "Value": {
+                "id": "bcf9e130-4de9-4229-95e6-ce431da148fd",
+                "resourcePath": "sprites\\playerHUD1\\playerHUD1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24bf5c9d-ac8b-470c-a741-1902bc6184be",
             "Value": {
                 "id": "1d5fbfa0-f202-47a9-a751-cb4b7ffd56a9",
@@ -106,7 +122,7 @@
             "Key": "3f43cb9a-67ed-46f2-9259-bbc23a40ed2f",
             "Value": {
                 "id": "12b7db34-cc74-4250-83c6-cc5ddc0f34f8",
-                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourcePath": "sprites\\backgroundSprite\\backgroundSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "46cf14b8-dfb4-413b-9f24-1548c42e06fc",
+            "Value": {
+                "id": "6f695cb0-d7b4-4baa-93e3-795c9fcdc471",
+                "resourcePath": "sprites\\playerHUD0\\playerHUD0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4940b0fc-a768-4540-90a1-a6930fa56951",
             "Value": {
                 "id": "2312f80e-7d6c-4f63-8d40-700d91c8f4d8",
@@ -159,6 +183,14 @@
             }
         },
         {
+            "Key": "639b9012-eff2-4121-b633-11d0479d627c",
+            "Value": {
+                "id": "00346e58-4f68-4b4a-bac7-0a64031dd8aa",
+                "resourcePath": "sprites\\enemySpinShotSprite\\enemySpinShotSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6440ec97-fe06-4a48-9545-b2ed5c443296",
             "Value": {
                 "id": "294f51a3-635b-45a7-906e-8bd437934560",
@@ -179,6 +211,14 @@
             "Value": {
                 "id": "69678024-3063-43f7-b3fa-97a6cb6e9276",
                 "resourcePath": "views\\6be28f21-1e21-4c8e-9105-df7c7b184780.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6d51aa00-034b-43bf-8fb8-cfad0466044c",
+            "Value": {
+                "id": "64858ea0-dfaf-419c-86cf-2dd3058432b1",
+                "resourcePath": "views\\6d51aa00-034b-43bf-8fb8-cfad0466044c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -343,6 +383,14 @@
             }
         },
         {
+            "Key": "df44737e-0e8d-4c46-b7e3-f9b6fec10b75",
+            "Value": {
+                "id": "8d7e9833-d0e2-461c-b04d-a4872d66259c",
+                "resourcePath": "scripts\\enemyShoot\\enemyShoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e4d9f56e-acb4-497d-a55f-c3d41ae4e5b4",
             "Value": {
                 "id": "18247a3e-5d5f-44d8-97c7-d7bcb1dbc1d6",
@@ -372,6 +420,14 @@
                 "id": "0987e37a-40ac-4879-b93a-264ca7896292",
                 "resourcePath": "objects\\wall\\wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ec5cdae0-623f-4990-99a3-003a05774812",
+            "Value": {
+                "id": "1030fceb-f413-48c3-bc09-271c4310db7f",
+                "resourcePath": "fonts\\HealthAndScore\\HealthAndScore.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -408,11 +464,12 @@
         }
     ],
     "script_order": [
-        "7bb6e357-e556-4882-a650-e9237ebe16ab",
         "4940b0fc-a768-4540-90a1-a6930fa56951",
         "b3fcdabb-0e7d-4262-a65b-8b3922baf603",
         "81509afc-2fce-4363-9909-acbbef1c8e49",
-        "454c3ee0-b1f8-4a5e-ba48-4dd892482d28"
+        "454c3ee0-b1f8-4a5e-ba48-4dd892482d28",
+        "7bb6e357-e556-4882-a650-e9237ebe16ab",
+        "df44737e-0e8d-4c46-b7e3-f9b6fec10b75"
     ],
     "tutorial": ""
 }

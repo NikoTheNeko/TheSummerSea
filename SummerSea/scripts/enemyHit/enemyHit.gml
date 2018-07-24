@@ -16,4 +16,5 @@ if(place_meeting(x,y, shortShot)){
 //Checks if it has no health and deletes itself
 if(enemyHealth <= 0){
 	instance_destroy(self);
+	score += argument0;
 }

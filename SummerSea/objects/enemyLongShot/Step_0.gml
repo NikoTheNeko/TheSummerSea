@@ -7,17 +7,7 @@ if(enemyStance = 0){
 
 //Attack Stance
 if(enemyStance = 1){
-	
-	//Shoots bullets when ready
-	if(shotReady == 0){
-		var bullet = instance_create_depth(x,y, 0 ,enemyBullet);
-		shotReady = 1;
-		alarm[0] = 60;
-		with(bullet){
-			direction = 270;
-			speed = 5;
-		}
-	}
+	enemyShoot(60 ,270);
 	
 	//Moves left and right to dodge the player
 	if(enemyHorDir == 0){
@@ -36,4 +26,4 @@ if(enemyStance = 1){
 }
 
 //Checks if it gets hit
-enemyHit();
+enemyHit(100);
