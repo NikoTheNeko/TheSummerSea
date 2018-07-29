@@ -23,6 +23,19 @@ if(rechargeReady == 0){
 	alarm[0] = 20;
 }
 
+//Lose Condition
+if(playerHealth == 0){
+	room_goto(gameOver);
+}
+
 //Enemy Hit Detection
 playerHitDetection(enemyBullet);
 playerHitDetection(enemyLongShot);
+playerHitDetection(enemySpinShot);
+playerHitDetection(enemyRotateShot);
+playerHitDetection(boss1);
+playerHitDetection(bossVertTentacle);
+playerHitDetection(bossHorTentacle);
+
+
+

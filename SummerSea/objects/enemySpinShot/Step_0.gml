@@ -16,10 +16,5 @@ if(shotsFired == 3){
 	alarm[3] = 60;
 }
 
-show_debug_message(shotsFired);
-show_debug_message(enemyStance);
-show_debug_message(shotAngle);
-
-
 //Checks if it gets hit
 enemyHit(100);
